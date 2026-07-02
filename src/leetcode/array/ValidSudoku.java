@@ -88,7 +88,7 @@ public class ValidSudoku {
 				char cell = board[r][c];
 				
 				if(cell == '.') {
-					continue;	// skip empty cells
+					continue;	// skip empty cells('.')
 				}
 				
 				int digit = cell - '1';		// 0-indexed digit (0 to 8)
