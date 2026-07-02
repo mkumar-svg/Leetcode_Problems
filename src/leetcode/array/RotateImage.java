@@ -96,7 +96,6 @@ public class RotateImage {
         rotate(matrix1);
         System.out.println("Example 1 - After rotation:");
         printMatrix(matrix1);
-        // Expected: [7,4,1] [8,5,2] [9,6,3]
 
         int[][] matrix2 = {
             {5, 1, 9, 11},
@@ -109,7 +108,6 @@ public class RotateImage {
         rotate(matrix2);
         System.out.println("Example 2 - After rotation:");
         printMatrix(matrix2);
-        // Expected: [15,13,2,5] [14,3,4,1] [12,6,8,9] [16,7,10,11]
 
         // Edge case: n = 1
         int[][] matrix3 = {{42}};
